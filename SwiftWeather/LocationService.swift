@@ -23,7 +23,7 @@ class LocationService: NSObject {
   }
 
   func requestLocation() {
-    locationManager.requestWhenInUseAuthorization()
+    locationManager.requestWhenInUseAuthorizations()
     locationManager.requestLocation()
   }
 }
